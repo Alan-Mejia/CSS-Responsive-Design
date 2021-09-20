@@ -1,0 +1,36 @@
+.header1{
+    background-color: grey;
+    text-align: center;
+    min-height: 80px;
+}
+.nav-menu{
+    background-color: grey;
+    text-align: center;
+    min-height: 80px;
+}
+.middle{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.main-cont{
+    background-color: grey;
+    width: 65%;
+    min-height: 500px;
+    align-items: center;
+}
+.content{
+    background-color: grey;
+    width: 15%;
+    min-height: 500px;
+}
+.foot{
+    text-align: center;
+    background-color: grey;
+    min-height: 80px;
+}
+.content1{
+    align-items: center;
+}
