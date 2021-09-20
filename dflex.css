@@ -1,0 +1,32 @@
+.container{
+    width: 80%;
+    min-height: 500px;/*cuando la ventana se va reduciendo, el maximo tamañao que se van a estar reduciendo los elemntos*/
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center; /*ayuda alinear elementos de forma vertical*/
+}
+.caja{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    /*Si tuvieramos mas elementod dentro de este div, podriamos alinearlos a los lados con display flex*/
+    /*Estas propiedades Funcionan solo si hemos definido antes el disply-flex*/
+    justify-content: center;/*para centrar elementos de arriba hacia abajo*/
+    align-items: center;
+}
+.caja1{
+    border: 2px solid red;
+    align-self: flex-end;
+}
+.caja2{
+    border: 2px solid blue;
+}
+.caja3{
+    border: 2px solid violet;
+}
+.caja4{
+    border: 2px solid purple;
+}
